@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Picture</title>
+</head>
+<style>
+    .FlexContainer {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .FlexContainer>img {
+        width: 200px;
+        height: 150px;
+        transition: width 3s;
+    }
+
+    img:hover {
+        width: 400px;
+        height: 300px;
+    }
+
+    a {
+    width: 6%;
+    background-color: rgba(197, 14, 14, 0.609);
+    border: none;
+    color: white;
+    border-radius: 20px;
+    margin-top: 1%;
+    margin-left: 85%;
+    padding: 0.5%;
+    font-size: 120%;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover {
+    background-color: rgb(240, 80, 120) ;
+    color: white;
+}
+h1 {
+    text-align: center;
+}
+header {
+    background-color: rgb(177, 10, 10);
+    background-image: linear-gradient(to right top, rgb(177, 10, 10), rgb(228, 92, 176));
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+</style>
+
+<body>
+    <header id="grad"> 
+        <a href="index.html">Home</a>
+       <h1>All Pictures</h1>   
+    </header>
+    <figure class="FlexContainer">
+        <img src="images/dog.jpg" alt="dog">
+        <img src="images/intothewater.jpg" alt="intothewater">
+        <img src="images/nature.jpg" alt="nature">
+        <img src="images/nature2.jpg" alt="nature2">
+        <img src="images/nature3.jpg" alt="nature3">
+        <img src="images/ocean.jpg" alt="ocean">
+        <img src="images/oceanlife.jpg" alt="oceanlife">
+        <img src="images/sunset2.jpg" alt="sunset">
+        <img src="images/relax.jpg" alt="relaxing">
+        <img src="images/walking.jpg" alt="walking">
+        <img src="images/wave.jpg" alt="wave">
+        <img src="images/car.jpg" alt="orange-car">
+        <img src="images/flower.jpg" alt="flower">
+        <img src="images/sunset.jpg" alt="sunset">
+        <img src="images/bus.PNG" alt="bus">
+        <img src="images/cloud.PNG" alt="cloud">
+        <img src="images/city.jpg" alt="city">
+        <img src="images/fog-sunset.PNG" alt="fog-sunset">
+        <img src="images/machupicchuph.jpg" alt="machupicchuph">
+        <img src="images/down1.jpg" alt="purple" class="footer-img">
+        <img src="images/down2.png" alt="bird" class="footer-img">
+        <img src="images/down3.png" alt="gergeti" class="footer-img">
+        <img src="images/down4.jpg" alt="aurora" class="footer-img">
+    </figure>
+</body>
+
+</html>

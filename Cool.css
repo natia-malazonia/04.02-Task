@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: Helvetica, sans-serif;
+}
+
+header {
+    background-color: rgb(47, 30, 201);
+    background-image: linear-gradient(to right top, rgb(47, 30, 201), rgba(81, 159, 248, 0.637));
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 220%;
+}
+
+Section {
+    display: flex;
+    flex-direction: column;
+}
+
+Section>figure {
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+section>figure>div {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+a {
+    width: 6%;
+    background-color: rgb(24, 4, 43);
+    border: none;
+    color: white;
+    border-radius: 20px;
+    margin-top: 1%;
+    margin-left: 85%;
+    padding: 0.5%;
+    font-size: 120%;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover {
+    background-color: rgb(104, 6, 60) ;
+    color: white;
+}

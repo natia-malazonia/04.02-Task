@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beautiful Gallery</title>
+</head>
+<style>
+    .FlexContainer {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .FlexContainer>img {
+        width: 200px;
+        height: 150px;
+        transition: width 3s;
+    }
+
+    img:hover {
+        width: 400px;
+        height: 300px;
+    }
+
+    a {
+    width: 6%;
+    background-color: rgb(51, 197, 255);
+    border: none;
+    color: white;
+    border-radius: 20px;
+    margin-top: 1%;
+    margin-left: 85%;
+    padding: 0.5%;
+    font-size: 120%;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover {
+    background-color: rgb(61, 11, 179) ;
+    color: white;
+}
+h1 {
+    text-align: center;
+}
+header {
+    background-color: rgb(118, 30, 201);
+    background-image: linear-gradient(to right top, rgb(118, 30, 201), rgb(14, 158, 202));
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+</style>
+
+<body>
+    <header id="grad"> 
+        <a href="index.html">Home</a>
+       <h1>Beautiful Gallery</h1>   
+    </header>
+    <figure class="FlexContainer">
+        <img src="images/dog.jpg" alt="dog">
+        <img src="images/intothewater.jpg" alt="intothewater">
+        <img src="images/nature.jpg" alt="nature">
+        <img src="images/nature2.jpg" alt="nature2">
+        <img src="images/nature3.jpg" alt="nature3">
+        <img src="images/ocean.jpg" alt="ocean">
+        <img src="images/oceanlife.jpg" alt="oceanlife">
+        <img src="images/sunset2.jpg" alt="sunset">
+        <img src="images/relax.jpg" alt="relaxing">
+        <img src="images/walking.jpg" alt="walking">
+        <img src="images/wave.jpg" alt="wave">
+    </figure>
+   
+</body>
+
+</html>
